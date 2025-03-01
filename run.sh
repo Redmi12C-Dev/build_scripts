@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf .repo/local_manifests
 repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
 git clone https://github.com/Redmi12C-Dev/local_manifests.git .repo/local_manifests
 /opt/crave/resync.sh
